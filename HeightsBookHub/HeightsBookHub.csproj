@@ -24,10 +24,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Controllers\" />
-  </ItemGroup>
-
-  <ItemGroup>
+    <ProjectReference Include="..\HeightsBookHub.Application\HeightsBookHub.Application.csproj" />
     <ProjectReference Include="..\HeightsBookHub.Persistence\HeightsBookHub.Persistence.csproj" />
   </ItemGroup>
 

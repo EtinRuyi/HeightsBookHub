@@ -16,6 +16,10 @@
             Data = data;
             StatusCode = statusCode;
         }
+        public BaseResponse()
+        {
+            
+        }
 
         public BaseResponse(bool isSucceeded, string message, int statusCode)
         {

@@ -1,4 +1,11 @@
+using HeightsBookHub.Application.Service.Implementation;
+using HeightsBookHub.Application.Service.Interface;
+using HeightsBookHub.Domain.Entities;
 using HeightsBookHub.Persistence.DbContext;
+using HeightsBookHub.Persistence.Repository.Implementation;
+using HeightsBookHub.Persistence.Repository.Interface;
+using HeightsBookHub.Persistence.Seeders;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -8,6 +15,16 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllers();
 builder.Services.AddDbContext<HeightsBHDbContext>(options =>
 options.UseSqlServer(builder.Configuration.GetConnectionString("HBHConnection")));
+builder.Services.AddIdentity<User, IdentityRole>()
+    .AddEntityFrameworkStores<HeightsBHDbContext>()
+    .AddDefaultTokenProviders();
+builder.Services.AddScoped<UserManager<User>>();
+
+
+builder.Services.AddScoped<IAuthenticationRepository, AuthenticationRepository>();
+builder.Services.AddScoped<IAuthenticationService, AuthenticationService>();
+
+
 
 
 builder.Services.AddEndpointsApiExplorer();
@@ -20,6 +37,11 @@ if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
     app.UseSwaggerUI();
+}
+using (var scope = app.Services.CreateScope())
+{
+    var serviceProvider = scope.ServiceProvider;
+    RoleSedder.SeedRole(serviceProvider);
 }
 
 app.UseHttpsRedirection();
