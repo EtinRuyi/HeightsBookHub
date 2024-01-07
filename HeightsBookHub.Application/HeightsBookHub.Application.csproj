@@ -23,6 +23,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\HeightsBookHub.Common\HeightsBookHub.Common.csproj" />
     <ProjectReference Include="..\HeightsBookHub.Domain\HeightsBookHub.Domain.csproj" />
     <ProjectReference Include="..\HeightsBookHub.Persistence\HeightsBookHub.Persistence.csproj" />
   </ItemGroup>

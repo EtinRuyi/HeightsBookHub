@@ -1,0 +1,15 @@
+C:\Users\omoru\Desktop\HeightsBookHub\HeightsBookHub.Common\bin\Debug\net7.0\HeightsBookHub.Common.deps.json
+C:\Users\omoru\Desktop\HeightsBookHub\HeightsBookHub.Common\bin\Debug\net7.0\HeightsBookHub.Common.dll
+C:\Users\omoru\Desktop\HeightsBookHub\HeightsBookHub.Common\bin\Debug\net7.0\HeightsBookHub.Common.pdb
+C:\Users\omoru\Desktop\HeightsBookHub\HeightsBookHub.Common\bin\Debug\net7.0\HeightsBookHub.Domain.dll
+C:\Users\omoru\Desktop\HeightsBookHub\HeightsBookHub.Common\bin\Debug\net7.0\HeightsBookHub.Domain.pdb
+C:\Users\omoru\Desktop\HeightsBookHub\HeightsBookHub.Common\obj\Debug\net7.0\HeightsBookHub.Common.csproj.AssemblyReference.cache
+C:\Users\omoru\Desktop\HeightsBookHub\HeightsBookHub.Common\obj\Debug\net7.0\HeightsBookHub.Common.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\omoru\Desktop\HeightsBookHub\HeightsBookHub.Common\obj\Debug\net7.0\HeightsBookHub.Common.AssemblyInfoInputs.cache
+C:\Users\omoru\Desktop\HeightsBookHub\HeightsBookHub.Common\obj\Debug\net7.0\HeightsBookHub.Common.AssemblyInfo.cs
+C:\Users\omoru\Desktop\HeightsBookHub\HeightsBookHub.Common\obj\Debug\net7.0\HeightsBookHub.Common.csproj.CoreCompileInputs.cache
+C:\Users\omoru\Desktop\HeightsBookHub\HeightsBookHub.Common\obj\Debug\net7.0\HeightsBookHub.Common.csproj.CopyComplete
+C:\Users\omoru\Desktop\HeightsBookHub\HeightsBookHub.Common\obj\Debug\net7.0\HeightsBookHub.Common.dll
+C:\Users\omoru\Desktop\HeightsBookHub\HeightsBookHub.Common\obj\Debug\net7.0\refint\HeightsBookHub.Common.dll
+C:\Users\omoru\Desktop\HeightsBookHub\HeightsBookHub.Common\obj\Debug\net7.0\HeightsBookHub.Common.pdb
+C:\Users\omoru\Desktop\HeightsBookHub\HeightsBookHub.Common\obj\Debug\net7.0\ref\HeightsBookHub.Common.dll

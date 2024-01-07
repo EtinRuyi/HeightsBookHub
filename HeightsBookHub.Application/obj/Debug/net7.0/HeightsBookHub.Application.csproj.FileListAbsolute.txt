@@ -2,8 +2,10 @@ C:\Users\omoru\Desktop\HeightsBookHub\HeightsBookHub.Application\bin\Debug\net7.
 C:\Users\omoru\Desktop\HeightsBookHub\HeightsBookHub.Application\bin\Debug\net7.0\HeightsBookHub.Application.runtimeconfig.json
 C:\Users\omoru\Desktop\HeightsBookHub\HeightsBookHub.Application\bin\Debug\net7.0\HeightsBookHub.Application.dll
 C:\Users\omoru\Desktop\HeightsBookHub\HeightsBookHub.Application\bin\Debug\net7.0\HeightsBookHub.Application.pdb
+C:\Users\omoru\Desktop\HeightsBookHub\HeightsBookHub.Application\bin\Debug\net7.0\HeightsBookHub.Common.dll
 C:\Users\omoru\Desktop\HeightsBookHub\HeightsBookHub.Application\bin\Debug\net7.0\HeightsBookHub.Domain.dll
 C:\Users\omoru\Desktop\HeightsBookHub\HeightsBookHub.Application\bin\Debug\net7.0\HeightsBookHub.Persistence.dll
+C:\Users\omoru\Desktop\HeightsBookHub\HeightsBookHub.Application\bin\Debug\net7.0\HeightsBookHub.Common.pdb
 C:\Users\omoru\Desktop\HeightsBookHub\HeightsBookHub.Application\bin\Debug\net7.0\HeightsBookHub.Domain.pdb
 C:\Users\omoru\Desktop\HeightsBookHub\HeightsBookHub.Application\bin\Debug\net7.0\HeightsBookHub.Persistence.pdb
 C:\Users\omoru\Desktop\HeightsBookHub\HeightsBookHub.Application\obj\Debug\net7.0\HeightsBookHub.Application.csproj.AssemblyReference.cache

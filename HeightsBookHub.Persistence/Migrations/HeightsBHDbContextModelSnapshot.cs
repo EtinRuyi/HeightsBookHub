@@ -68,7 +68,7 @@ namespace HeightsBookHub.Persistence.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Books");
+                    b.ToTable("Books", (string)null);
                 });
 
             modelBuilder.Entity("HeightsBookHub.Domain.Entities.Cart", b =>
@@ -100,7 +100,7 @@ namespace HeightsBookHub.Persistence.Migrations
                     b.HasIndex("UserId")
                         .IsUnique();
 
-                    b.ToTable("Carts");
+                    b.ToTable("Carts", (string)null);
                 });
 
             modelBuilder.Entity("HeightsBookHub.Domain.Entities.Order", b =>
@@ -134,7 +134,7 @@ namespace HeightsBookHub.Persistence.Migrations
 
                     b.HasIndex("UserId");
 
-                    b.ToTable("Orders");
+                    b.ToTable("Orders", (string)null);
                 });
 
             modelBuilder.Entity("HeightsBookHub.Domain.Entities.User", b =>
