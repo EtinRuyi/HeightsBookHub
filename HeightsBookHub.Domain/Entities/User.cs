@@ -1,5 +1,5 @@
 ﻿using HeightsBookHub.Domain.Enums;
-using Microsoft.AspNet.Identity.EntityFramework;
+using Microsoft.AspNetCore.Identity;
 
 namespace HeightsBookHub.Domain.Entities
 {
