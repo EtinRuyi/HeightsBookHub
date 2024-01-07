@@ -1,11 +1,17 @@
 C:\Users\omoru\Desktop\HeightsBookHub\HeightsBookHub.Persistence\bin\Debug\net7.0\HeightsBookHub.Persistence.deps.json
+C:\Users\omoru\Desktop\HeightsBookHub\HeightsBookHub.Persistence\bin\Debug\net7.0\HeightsBookHub.Persistence.runtimeconfig.json
 C:\Users\omoru\Desktop\HeightsBookHub\HeightsBookHub.Persistence\bin\Debug\net7.0\HeightsBookHub.Persistence.dll
 C:\Users\omoru\Desktop\HeightsBookHub\HeightsBookHub.Persistence\bin\Debug\net7.0\HeightsBookHub.Persistence.pdb
+C:\Users\omoru\Desktop\HeightsBookHub\HeightsBookHub.Persistence\bin\Debug\net7.0\HeightsBookHub.Domain.dll
+C:\Users\omoru\Desktop\HeightsBookHub\HeightsBookHub.Persistence\bin\Debug\net7.0\HeightsBookHub.Domain.pdb
+C:\Users\omoru\Desktop\HeightsBookHub\HeightsBookHub.Persistence\obj\Debug\net7.0\HeightsBookHub.Persistence.csproj.AssemblyReference.cache
 C:\Users\omoru\Desktop\HeightsBookHub\HeightsBookHub.Persistence\obj\Debug\net7.0\HeightsBookHub.Persistence.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\omoru\Desktop\HeightsBookHub\HeightsBookHub.Persistence\obj\Debug\net7.0\HeightsBookHub.Persistence.AssemblyInfoInputs.cache
 C:\Users\omoru\Desktop\HeightsBookHub\HeightsBookHub.Persistence\obj\Debug\net7.0\HeightsBookHub.Persistence.AssemblyInfo.cs
 C:\Users\omoru\Desktop\HeightsBookHub\HeightsBookHub.Persistence\obj\Debug\net7.0\HeightsBookHub.Persistence.csproj.CoreCompileInputs.cache
+C:\Users\omoru\Desktop\HeightsBookHub\HeightsBookHub.Persistence\obj\Debug\net7.0\HeightsBookHub.Persistence.csproj.CopyComplete
 C:\Users\omoru\Desktop\HeightsBookHub\HeightsBookHub.Persistence\obj\Debug\net7.0\HeightsBookHub.Persistence.dll
 C:\Users\omoru\Desktop\HeightsBookHub\HeightsBookHub.Persistence\obj\Debug\net7.0\refint\HeightsBookHub.Persistence.dll
 C:\Users\omoru\Desktop\HeightsBookHub\HeightsBookHub.Persistence\obj\Debug\net7.0\HeightsBookHub.Persistence.pdb
+C:\Users\omoru\Desktop\HeightsBookHub\HeightsBookHub.Persistence\obj\Debug\net7.0\HeightsBookHub.Persistence.genruntimeconfig.cache
 C:\Users\omoru\Desktop\HeightsBookHub\HeightsBookHub.Persistence\obj\Debug\net7.0\ref\HeightsBookHub.Persistence.dll
