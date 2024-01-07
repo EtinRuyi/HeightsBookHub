@@ -2,3 +2,11 @@ C:\Users\omoru\Desktop\HeightsBookHub\HeightsBookHub.Domain\obj\Debug\net7.0\Hei
 C:\Users\omoru\Desktop\HeightsBookHub\HeightsBookHub.Domain\obj\Debug\net7.0\HeightsBookHub.Domain.AssemblyInfoInputs.cache
 C:\Users\omoru\Desktop\HeightsBookHub\HeightsBookHub.Domain\obj\Debug\net7.0\HeightsBookHub.Domain.AssemblyInfo.cs
 C:\Users\omoru\Desktop\HeightsBookHub\HeightsBookHub.Domain\obj\Debug\net7.0\HeightsBookHub.Domain.csproj.CoreCompileInputs.cache
+C:\Users\omoru\Desktop\HeightsBookHub\HeightsBookHub.Domain\bin\Debug\net7.0\HeightsBookHub.Domain.deps.json
+C:\Users\omoru\Desktop\HeightsBookHub\HeightsBookHub.Domain\bin\Debug\net7.0\HeightsBookHub.Domain.dll
+C:\Users\omoru\Desktop\HeightsBookHub\HeightsBookHub.Domain\bin\Debug\net7.0\HeightsBookHub.Domain.pdb
+C:\Users\omoru\Desktop\HeightsBookHub\HeightsBookHub.Domain\obj\Debug\net7.0\HeightsBookHub.Domain.csproj.AssemblyReference.cache
+C:\Users\omoru\Desktop\HeightsBookHub\HeightsBookHub.Domain\obj\Debug\net7.0\HeightsBookHub.Domain.dll
+C:\Users\omoru\Desktop\HeightsBookHub\HeightsBookHub.Domain\obj\Debug\net7.0\refint\HeightsBookHub.Domain.dll
+C:\Users\omoru\Desktop\HeightsBookHub\HeightsBookHub.Domain\obj\Debug\net7.0\HeightsBookHub.Domain.pdb
+C:\Users\omoru\Desktop\HeightsBookHub\HeightsBookHub.Domain\obj\Debug\net7.0\ref\HeightsBookHub.Domain.dll
