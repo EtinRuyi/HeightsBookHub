@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "zXn50Se2D95ynV9vcq+Wl/3wwIQYOZkViWNUxcJabxVttLnw1J8YX+VV3PAxvfnwkz0ezk9gST1vWbVZWqAyKA==",
+  "dgSpecHash": "DA5Y5F/26B8DG+hIHog4qD7es8Y+jWL0Z/YGTWTzjjO/FkQ5mpXJyttgi4XLXvOaj0HzqdIvtj2B72eMZS4Ntw==",
   "success": true,
   "projectFilePath": "C:\\Users\\omoru\\Desktop\\HeightsBookHub\\HeightsBookHub\\HeightsBookHub.csproj",
   "expectedPackageFiles": [
@@ -66,6 +66,7 @@
     "C:\\Users\\omoru\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
     "C:\\Users\\omoru\\.nuget\\packages\\microsoft.openapi\\1.4.3\\microsoft.openapi.1.4.3.nupkg.sha512",
     "C:\\Users\\omoru\\.nuget\\packages\\microsoft.sqlserver.server\\1.0.0\\microsoft.sqlserver.server.1.0.0.nupkg.sha512",
+    "C:\\Users\\omoru\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.19.4\\microsoft.visualstudio.azure.containers.tools.targets.1.19.4.nupkg.sha512",
     "C:\\Users\\omoru\\.nuget\\packages\\microsoft.win32.registry\\5.0.0\\microsoft.win32.registry.5.0.0.nupkg.sha512",
     "C:\\Users\\omoru\\.nuget\\packages\\microsoft.win32.systemevents\\5.0.0\\microsoft.win32.systemevents.5.0.0.nupkg.sha512",
     "C:\\Users\\omoru\\.nuget\\packages\\mono.texttemplating\\2.2.1\\mono.texttemplating.2.2.1.nupkg.sha512",
