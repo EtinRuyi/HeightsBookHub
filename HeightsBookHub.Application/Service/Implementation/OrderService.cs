@@ -13,12 +13,12 @@ namespace HeightsBookHub.Application.Service.Implementation
     public class OrderService : IOrderService
     {
         private readonly IOrderRepository _orderRepository;
-        private readonly IRabbitMQService _rabbitMQService;
+        //private readonly IRabbitMQService _rabbitMQService;
 
-        public OrderService(IOrderRepository orderRepository, IRabbitMQService rabbitMQService)
+        public OrderService(IOrderRepository orderRepository /*IRabbitMQService rabbitMQService*/)
         {
             _orderRepository = orderRepository;
-            _rabbitMQService = rabbitMQService;
+            //_rabbitMQService = rabbitMQService;
         }
 
         public async Task<BaseResponse<OrderResponseDto>> PlaceOrderAsync(OrderRequestDTO orderDTO)
@@ -44,7 +44,8 @@ namespace HeightsBookHub.Application.Service.Implementation
                     Quantity = placedOrder.Quantity,
                     OrderStatus = placedOrder.OrderStatus,
                 };
-                _rabbitMQService.SendMessage("InventoryQueue", $"OrderProcessed: {placedOrder.Id}");
+                //_rabbitMQService.SendMessage("InventoryQueue", $"OrderProcessed: {placedOrder.Id}");
+
                 return BaseResponse<OrderResponseDto>.Success(placedOrderDTO, "Order placed successfully", 200); 
             }
             catch (Exception ex)

@@ -30,6 +30,7 @@ C:\Users\omoru\Desktop\HeightsBookHub\HeightsBookHub\bin\Debug\net7.0\Microsoft.
 C:\Users\omoru\Desktop\HeightsBookHub\HeightsBookHub\bin\Debug\net7.0\Microsoft.SqlServer.Server.dll
 C:\Users\omoru\Desktop\HeightsBookHub\HeightsBookHub\bin\Debug\net7.0\Microsoft.Win32.SystemEvents.dll
 C:\Users\omoru\Desktop\HeightsBookHub\HeightsBookHub\bin\Debug\net7.0\Mono.TextTemplating.dll
+C:\Users\omoru\Desktop\HeightsBookHub\HeightsBookHub\bin\Debug\net7.0\RabbitMQ.Client.dll
 C:\Users\omoru\Desktop\HeightsBookHub\HeightsBookHub\bin\Debug\net7.0\Swashbuckle.AspNetCore.Swagger.dll
 C:\Users\omoru\Desktop\HeightsBookHub\HeightsBookHub\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\Users\omoru\Desktop\HeightsBookHub\HeightsBookHub\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
@@ -83,4 +84,3 @@ C:\Users\omoru\Desktop\HeightsBookHub\HeightsBookHub\obj\Debug\net7.0\refint\Hei
 C:\Users\omoru\Desktop\HeightsBookHub\HeightsBookHub\obj\Debug\net7.0\HeightsBookHub.pdb
 C:\Users\omoru\Desktop\HeightsBookHub\HeightsBookHub\obj\Debug\net7.0\HeightsBookHub.genruntimeconfig.cache
 C:\Users\omoru\Desktop\HeightsBookHub\HeightsBookHub\obj\Debug\net7.0\ref\HeightsBookHub.dll
-C:\Users\omoru\Desktop\HeightsBookHub\HeightsBookHub\bin\Debug\net7.0\RabbitMQ.Client.dll
