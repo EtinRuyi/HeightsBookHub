@@ -2,7 +2,6 @@
 using HeightsBookHub.Persistence.DbContext;
 using HeightsBookHub.Persistence.Repository.Interface;
 using Microsoft.EntityFrameworkCore;
-//using System.Data.Entity;
 
 namespace HeightsBookHub.Persistence.Repository.Implementation
 {

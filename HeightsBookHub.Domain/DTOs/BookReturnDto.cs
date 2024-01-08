@@ -1,11 +1,4 @@
-﻿using HeightsBookHub.Domain.Entities;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace HeightsBookHub.Domain.DTOs
+﻿namespace HeightsBookHub.Domain.DTOs
 {
     public class BookReturnDto
     {

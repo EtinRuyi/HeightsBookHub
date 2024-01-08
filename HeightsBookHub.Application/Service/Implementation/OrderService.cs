@@ -1,24 +1,20 @@
 ﻿using HeightsBookHub.Application.Service.Interface;
 using HeightsBookHub.Domain.DTOs;
-using HeightsBookHub.Domain.Entities.SharedEntities;
 using HeightsBookHub.Domain.Entities;
+using HeightsBookHub.Domain.Entities.SharedEntities;
 using HeightsBookHub.Persistence.Repository.Interface;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 
 namespace HeightsBookHub.Application.Service.Implementation
 {
     public class OrderService : IOrderService
     {
         private readonly IOrderRepository _orderRepository;
-        //private readonly IRabbitMQService _rabbitMQService;
+        private readonly IRabbitMQService _rabbitMQService;
 
-        public OrderService(IOrderRepository orderRepository /*IRabbitMQService rabbitMQService*/)
+        public OrderService(IOrderRepository orderRepository, IRabbitMQService rabbitMQService)
         {
             _orderRepository = orderRepository;
-            //_rabbitMQService = rabbitMQService;
+            _rabbitMQService = rabbitMQService;
         }
 
         public async Task<BaseResponse<OrderResponseDto>> PlaceOrderAsync(OrderRequestDTO orderDTO)
@@ -27,7 +23,6 @@ namespace HeightsBookHub.Application.Service.Implementation
             {
                 var order = new Order
                 {
-                    //Id = orderDTO.Id,
                     UserId = orderDTO.UserId,
                     BookId = orderDTO.BookId,
                     Quantity = orderDTO.Quantity,
@@ -44,7 +39,7 @@ namespace HeightsBookHub.Application.Service.Implementation
                     Quantity = placedOrder.Quantity,
                     OrderStatus = placedOrder.OrderStatus,
                 };
-                //_rabbitMQService.SendMessage("InventoryQueue", $"OrderProcessed: {placedOrder.Id}");
+                _rabbitMQService.SendMessage("InventoryQueue", $"OrderProcessed: {placedOrder.Id}");
 
                 return BaseResponse<OrderResponseDto>.Success(placedOrderDTO, "Order placed successfully", 200); 
             }

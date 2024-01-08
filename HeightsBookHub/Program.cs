@@ -10,7 +10,6 @@ using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
 
 builder.Services.AddControllers();
 builder.Services.AddDbContext<HeightsBHDbContext>(options =>
@@ -27,13 +26,8 @@ builder.Services.AddScoped<IBookRepository, BookRepository>();
 builder.Services.AddScoped<IBookService, BookService>();
 builder.Services.AddScoped<IOrderRepository, OrderRepository>();
 builder.Services.AddScoped<IOrderService, OrderService>();
-builder.Services.AddScoped<IRabbitMQOrderService, RabbitMQOrderService>();
-builder.Services.AddScoped<IInventoryService, InventoryService>();
-builder.Services.AddScoped<IRabbitMQInventoryService, RabbitMQInventoryService>();
-builder.Services.AddScoped<IOrderProcessingService, OrderProcessingService>();
-
-//builder.Services.AddScoped<IRabbitMQService, RabbitMQService>();
-//builder.Services.AddScoped<InventoryManagementService>();
+builder.Services.AddScoped<IRabbitMQService, RabbitMQService>();
+builder.Services.AddScoped<InventoryManagementService>();
 
 
 
